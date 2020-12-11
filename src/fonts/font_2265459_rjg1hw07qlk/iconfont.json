@@ -1,0 +1,30 @@
+{
+  "id": "2265459",
+  "name": "projectname",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1314698",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "15779808",
+      "name": "五角星",
+      "font_class": "wujiaoxing",
+      "unicode": "e712",
+      "unicode_decimal": 59154
+    },
+    {
+      "icon_id": "18447375",
+      "name": "箭头下",
+      "font_class": "jiantouxia",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    }
+  ]
+}

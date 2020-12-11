@@ -1,0 +1,22 @@
+$height:130px;
+$width_:100%;
+$bgcolor:#fff;
+$margin-top:62px;
+$inline-block:inline-block;
+$width1:172px;
+$left:left;
+h4 {
+    display: $inline-block;
+}
+
+.header {
+    height: $height;
+    width: $width_;
+    background-color: $bgcolor;
+    margin-top: $margin-top;
+}
+
+.d1 {
+    width: $width1;
+    float: $left;
+}
