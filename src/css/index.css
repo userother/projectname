@@ -3,10 +3,10 @@ Error: File to import not found or unreadable: banner.
        Load path: C:/xampp/htdocs/dashboard/secoo.com/src/sass
         on line 9 of sass/./index.scss
 
-4: $box_height:200px;
-5: $font12:12px;
-6: $font14:14px;
-7: $font16:16px;
+4: // $box_height:200px;
+5: // $font12:12px;
+6: // $font14:14px;
+7: // $font16:16px;
 8: @import 'top';
 9: @import 'banner';
 
@@ -56,4 +56,4 @@ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: banner.\A        Load path: C:/xampp/htdocs/dashboard/secoo.com/src/sass\A         on line 9 of sass/./index.scss\A \A 4: $box_height:200px;\A 5: $font12:12px;\A 6: $font14:14px;\A 7: $font16:16px;\A 8: @import 'top';\A 9: @import 'banner';"; }
+  content: "Error: File to import not found or unreadable: banner.\A        Load path: C:/xampp/htdocs/dashboard/secoo.com/src/sass\A         on line 9 of sass/./index.scss\A \A 4: // $box_height:200px;\A 5: // $font12:12px;\A 6: // $font14:14px;\A 7: // $font16:16px;\A 8: @import 'top';\A 9: @import 'banner';"; }

@@ -6,12 +6,171 @@ h4 {
   height: 130px;
   width: 100%;
   background-color: #fff;
-  margin-top: 62px;
 }
 
 .d1 {
   width: 172px;
+}
+
+.top-bar {
+  width: 1200px;
+  margin: auto;
+}
+
+.headlogo {
+  margin: auto;
+  width: 189px;
+  height: 75px;
+  padding-top: 29px;
+}
+
+.head-lang {
   float: left;
+  margin-top: 62px;
+  vertical-align: middle;
+}
+
+.d1 {
+  width: 40px;
+  padding-left: 25px;
+  height: 28px;
+  line-height: 28px;
+  padding-bottom: 3px;
+  padding-right: 20px;
+  cursor: pointer;
+  position: relative;
+  float: left;
+}
+
+.head-lang h4 {
+  font-weight: normal;
+  font-size: 12px;
+  padding-right: 4px;
+  text-align: center;
+}
+
+.iconfont {
+  font-size: 16px;
+  font-style: normal;
+}
+
+.head-lang .icon1 {
+  position: absolute;
+  top: 0;
+  right: 9px;
+}
+
+.line1 {
+  float: left;
+  width: 1px;
+  height: 28px;
+  background-color: #ccc;
+}
+
+.top-selector {
+  width: 49px;
+  padding-left: 17px;
+  position: relative;
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 3px;
+  height: 28px;
+  line-height: 28px;
+}
+
+.head-right {
+  float: right;
+  margin-top: 62px;
+}
+
+.head-right a {
+  width: 63px;
+  text-align: center;
+  display: inline-block;
+}
+
+.head-right span {
+  float: left;
+  height: 28px;
+  line-height: 28px;
+  font-size: 12px;
+}
+
+.denlu {
+  margin-right: 17px;
+}
+
+.denlu a {
+  vertical-align: middle;
+  font-size: 12px;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+
+.zhuche {
+  width: 63px;
+  text-align: center;
+}
+
+.wujiaox .icon2 {
+  font-size: 26px;
+  margin: 0 11px 0 13px;
+}
+
+.nav-bar {
+  width: 100%;
+  background-color: #000;
+  position: relative;
+  height: 50px;
+  margin-top: 26px;
+}
+.nav-bar .wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.nav-menu {
+  width: 910px;
+  height: 50px;
+  float: left;
+}
+
+.nav-menu li {
+  margin: 0 25px 0 25px;
+  float: left;
+  height: 50px;
+  line-height: 50px;
+}
+.nav-menu li a {
+  color: #ffb81c;
+  font-size: 14px;
+}
+.nav-menu .l1 {
+  margin-left: 0;
+}
+
+.s-search {
+  float: right;
+  position: relative;
+}
+.s-search input {
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
+  margin-top: 10%;
+}
+.s-search .icon-search {
+  position: absolute;
+  color: #ffb81c;
+  top: 46%;
+  right: 0;
+}
+
+.nav-unfold {
+  display: none;
 }
 
 /*# sourceMappingURL=top.css.map */
