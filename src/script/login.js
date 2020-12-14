@@ -6,7 +6,7 @@
     $login.on('click', function() {
         $.ajax({
             type: 'post',
-            url: 'http://localhost/dashboard/JS2010/week06/Day%2029-Day%2031_jquery/projectname/php/login.php',
+            url: 'http://localhost/secoo.com/php/login.php',
             data: {
                 user: $username.val(),
                 pass: $password.val()

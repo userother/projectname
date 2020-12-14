@@ -1,59 +1,831 @@
-/*
-Error: File to import not found or unreadable: banner.
-       Load path: C:/xampp/htdocs/dashboard/secoo.com/src/sass
-        on line 9 of sass/./index.scss
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
-4: // $box_height:200px;
-5: // $font12:12px;
-6: // $font14:14px;
-7: // $font16:16px;
-8: @import 'top';
-9: @import 'banner';
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
 
-Backtrace:
-sass/./index.scss:9
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: banner.\A        Load path: C:/xampp/htdocs/dashboard/secoo.com/src/sass\A         on line 9 of sass/./index.scss\A \A 4: // $box_height:200px;\A 5: // $font12:12px;\A 6: // $font14:14px;\A 7: // $font16:16px;\A 8: @import 'top';\A 9: @import 'banner';"; }
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.header {
+  height: 180px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.d1 {
+  width: 172px;
+}
+
+.top-bar {
+  width: 1200px;
+  margin: auto;
+}
+
+.headlogo {
+  margin: auto;
+  width: 189px;
+  height: 75px;
+  padding-top: 29px;
+}
+
+.head-lang {
+  float: left;
+  margin-top: 62px;
+  vertical-align: middle;
+}
+
+.d1 {
+  width: 40px;
+  padding-left: 25px;
+  height: 28px;
+  line-height: 28px;
+  padding-bottom: 3px;
+  padding-right: 20px;
+  cursor: pointer;
+  position: relative;
+  float: left;
+}
+
+.head-lang h4 {
+  font-weight: normal;
+  font-size: 12px;
+  padding-right: 4px;
+  text-align: center;
+}
+
+.iconfont {
+  font-size: 16px;
+  font-style: normal;
+}
+
+.head-lang .icon1 {
+  position: absolute;
+  top: 0;
+  right: 9px;
+}
+
+.line1 {
+  float: left;
+  width: 1px;
+  height: 28px;
+  background-color: #ccc;
+}
+
+.top-selector {
+  width: 49px;
+  padding-left: 17px;
+  position: relative;
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 3px;
+  height: 28px;
+  line-height: 28px;
+}
+
+.head-right {
+  float: right;
+  margin-top: 62px;
+}
+
+.head-right a {
+  width: 63px;
+  text-align: center;
+  display: inline-block;
+}
+
+.head-right span {
+  float: left;
+  height: 28px;
+  line-height: 28px;
+  font-size: 12px;
+}
+
+.denlu {
+  margin-right: 17px;
+}
+
+.denlu a {
+  vertical-align: middle;
+  font-size: 12px;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+
+.zhuche {
+  width: 63px;
+  text-align: center;
+}
+
+.wujiaox .icon2 {
+  font-size: 26px;
+  margin: 0 11px 0 13px;
+}
+
+.nav-bar {
+  width: 100%;
+  background-color: #000;
+  position: relative;
+  height: 50px;
+  margin-top: 26px;
+}
+.nav-bar .wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.nav-menu {
+  width: 910px;
+  height: 50px;
+  float: left;
+}
+
+.nav-menu > li {
+  float: left;
+}
+.nav-menu > li > a {
+  color: #ffb81c;
+  font-size: 14px;
+  height: 50px;
+  padding: 0 25px;
+  line-height: 50px;
+  cursor: pointer;
+}
+.nav-menu > li:hover .nav-unfold {
+  display: block;
+}
+.nav-menu .l1 {
+  margin-left: -25px;
+}
+
+.s-search {
+  float: right;
+  position: relative;
+}
+.s-search input {
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
+  margin-top: 10%;
+}
+.s-search .icon-search {
+  position: absolute;
+  color: #ffb81c;
+  top: 46%;
+  right: 0;
+}
+
+.unfold-list {
+  margin: 0 auto;
+  width: 1200px;
+}
+.unfold-list li {
+  width: 400px;
+  height: 300px;
+  float: left;
+}
+.unfold-list li:last-child {
+  width: 600px;
+}
+.unfold-list a {
+  float: left;
+  width: 200px;
+  height: 40px;
+  font-size: 13px;
+  color: #666;
+}
+.unfold-list h4 {
+  margin-bottom: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  width: 600px;
+  float: left;
+}
+.unfold-list li a:hover {
+  color: #000;
+}
+
+.nav-unfold {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  background-color: #fff;
+  z-index: 10;
+  display: none;
+  padding: 40px 0 60px 0;
+}
+
+.banner.ncontainer {
+  margin-top: 20px;
+}
+
+.ncontainer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.ncontainer .secoo-trend {
+  position: relative;
+  float: left;
+  width: 530px;
+  height: 900px;
+}
+
+.banner .secoo-trend img {
+  width: 100%;
+}
+
+.banner .secoo-trend:hover .bg-mask {
+  opacity: 1;
+}
+
+.banner .secoo-trend .top-img {
+  height: 790px;
+}
+
+.top-img,
+.bottom-img {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.top-img {
+  top: 0;
+  z-index: 1;
+}
+
+.banner .international-brands {
+  position: relative;
+  float: right;
+  width: 650px;
+  height: 410px;
+}
+
+.banner .international-brands:hover .bg-mask {
+  opacity: 1;
+}
+
+.left-img {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  left: 0;
+}
+
+.left-img img {
+  height: 100%;
+}
+
+.right-img {
+  position: absolute;
+  right: 0;
+}
+
+.bottom-img {
+  bottom: 0;
+  z-index: 2;
+}
+
+.bg-mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.banner .banner-video {
+  position: relative;
+  float: right;
+  width: 650px;
+  height: 550px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #000;
+}
+
+.banner .banner-video .bg-poster {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: #000;
+}
+
+.banner .banner-video .video-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -55px 0 0 -55px;
+  width: 110px;
+  height: 110px;
+  background: url("http://mpic.secooimg.com/images/2018/11/08/video-play.png") no-repeat center;
+}
+
+.nfooter {
+  height: 525px;
+  padding-top: 40px;
+  margin-top: 0px;
+  background-color: #ffb81c;
+  font-size: 16px;
+}
+
+.nfooter .footer-links > li {
+  float: left;
+}
+
+.nfooter .public-media {
+  text-align: center;
+}
+
+.nfooter span,
+.nfooter a {
+  font-size: 14px;
+}
+
+.nfooter .service-information {
+  width: 325px;
+}
+
+.nfooter .service-information .links-title,
+.nfooter .our-app .links-title {
+  margin-bottom: 26px;
+}
+
+.nfooter .links-title {
+  font-size: 16px;
+}
+
+.nfooter .service-information .links-item {
+  float: left;
+  width: 140px;
+}
+
+.nfooter .links-item {
+  height: 33px;
+}
+
+.nfooter .footer-logo {
+  position: relative;
+  width: 550px;
+  height: 240px;
+  background: url("http://mpic.secooimg.com/images/2018/11/07/footer-logo.png") no-repeat 100%;
+}
+
+.nfooter .footer-logo .weibo {
+  left: 91px;
+}
+
+.nfooter .footer-logo .weibo,
+.nfooter .footer-logo .wechat {
+  position: absolute;
+  top: 107px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.nfooter .footer-logo .weibo .icon-weibo,
+.nfooter .footer-logo .wechat .icon-wechat {
+  float: left;
+  font-size: 24px;
+  margin-right: 5px;
+  margin-top: -5px;
+}
+
+.nfooter .footer-logo .weibo span {
+  float: left;
+}
+
+.nfooter .qr-code {
+  position: absolute;
+  left: -133px;
+  top: -50px;
+  width: 126px;
+  height: 120px;
+  display: none;
+}
+
+.nfooter .footer-logo .wechat {
+  left: 394px;
+}
+
+.nfooter .qr-code img {
+  width: 100%;
+  height: 100%;
+}
+
+.nfooter .qr-code-p {
+  position: relative;
+}
+
+.nfooter .our-app {
+  margin-left: 207px;
+}
+
+.nfooter .footer-info {
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+.nfooter .footer-info span {
+  margin-right: 30px;
+}
+
+.nfooter .footer-info p {
+  margin-bottom: 20px;
+}
+
+.nfooter .footer-info span:last-child {
+  margin-right: 0;
+}
+
+.nfooter .footer-info .footer-info-imgs {
+  overflow: hidden;
+}
+
+.nfooter .footer-info .footer-info-imgs a {
+  float: left;
+  width: 108px;
+  height: 40px;
+  margin-right: 30px;
+}
+
+.nfooter .footer-info .footer-info-imgs img {
+  width: 100%;
+  height: 100%;
+}
+
+.nfooter .last {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.nfooter .last a {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+}
+
+.nfooter .last img {
+  float: left;
+}
+
+.nfooter .last p {
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  margin: 0px 0px 0px 5px;
+  color: #939393;
+}
+
+.editor-pick.ncontainer {
+  margin: 54px auto 42px;
+}
+
+.ncontainer {
+  width: 1200px;
+}
+
+.editor-pick .title {
+  width: 100%;
+  height: 38px;
+  margin-bottom: 40px;
+  background: url("http://mpic.secooimg.com/images/2018/11/07/editor-pick.png") no-repeat center/266px 38px, url("http://mpic.secooimg.com/images/2018/11/07/title-line.png") no-repeat bottom;
+}
+
+.editor-pick-list {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.editor-pick-list .product-list {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20000px;
+  height: 100%;
+}
+
+.editor-pick-list li {
+  float: left;
+  width: 232px;
+  height: 400px;
+  margin-right: 10px;
+  background-color: #f5f5f5;
+  transition: transform linear 0.2s, -webkit-transform linear 0.2s;
+}
+
+.editor-pick-list .product-img {
+  position: relative;
+  width: 100%;
+  height: 232px;
+}
+
+.editor-pick-list .product-img .mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 0.3;
+}
+
+.editor-pick-list .product-details {
+  padding: 34px 27px 0;
+}
+
+.editor-pick-list .product-details p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #000;
+}
+
+.editor-pick-list .product-name {
+  height: 28px;
+  font-size: 18px;
+}
+
+.editor-pick-list .product-desc {
+  height: 44px;
+  font-size: 12px;
+}
+
+.editor-pick-list .line {
+  width: 80px;
+  height: 2px;
+  margin-bottom: 18px;
+  background-color: #000;
+}
+
+.editor-pick-list .product-price {
+  font-size: 14px;
+}
+
+.editor-pick-list li:hover {
+  border-bottom: 10px solid #ffb81c;
+  transform: translateY(-10px);
+}
+
+.bottom-dir {
+  position: relative;
+  width: 100%;
+  height: 57px;
+  margin-top: 30px;
+  background: url("http://mpic.secooimg.com/images/2018/11/07/editor-pick-logo.png") no-repeat center/128px 57px, url("http://mpic.secooimg.com/images/2018/11/07/bottom-line.png") no-repeat 100%/100%;
+}
+
+.bottom-dir .prev {
+  margin-left: -64px;
+}
+
+.bottom-dir .prev,
+.bottom-dir .next {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 60px;
+  height: 100%;
+}
+
+.bottom-dir .prev .icon-prev,
+.bottom-dir .next .icon-next {
+  position: absolute;
+  left: 18px;
+  top: 14px;
+  font-size: 30px;
+  color: #000;
+  font-weight: 900;
+}
+
+.fashion-wardrobe.ncontainer {
+  position: relative;
+  height: 630px;
+  margin-bottom: 30px;
+}
+
+.ncontainer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.fashion-wardrobe .left-img {
+  left: 0;
+  z-index: 13;
+}
+
+.fashion-wardrobe img {
+  display: inline;
+}
+
+.fashion-wardrobe .right-img {
+  z-index: 15;
+}
+
+.secoo-app.ncontainer {
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+.plate-entry.ncontainer {
+  margin-bottom: 40px;
+}
+
+.plate-entry li {
+  position: relative;
+  float: left;
+  width: 380px;
+  height: 600px;
+  margin-right: 30px;
+}
+.plate-entry li:last-child {
+  margin-right: 0;
+}
+
+.world-of-secoo {
+  padding-top: 60px;
+  background-color: #ffb81c;
+}
+
+.world-of-secoo .title {
+  height: 109px;
+  margin-bottom: 51px;
+  text-align: center;
+}
+
+.world-of-secoo li {
+  position: relative;
+  float: left;
+  width: 380px;
+  height: 504px;
+  margin-right: 30px;
+}
+.world-of-secoo li:last-child {
+  margin-right: 0;
+}
+
+.fixed-qrcode {
+  display: block;
+  position: fixed;
+  left: 74px;
+  width: 120px;
+  height: 164px;
+  z-index: 99;
+  top: 10%;
+  box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.fixed-qrcode img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=index.css.map */

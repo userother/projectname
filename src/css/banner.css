@@ -1,0 +1,112 @@
+.banner.ncontainer {
+  margin-top: 20px;
+}
+
+.ncontainer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.ncontainer .secoo-trend {
+  position: relative;
+  float: left;
+  width: 530px;
+  height: 900px;
+}
+
+.banner .secoo-trend img {
+  width: 100%;
+}
+
+.banner .secoo-trend:hover .bg-mask {
+  opacity: 1;
+}
+
+.banner .secoo-trend .top-img {
+  height: 790px;
+}
+
+.top-img,
+.bottom-img {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.top-img {
+  top: 0;
+  z-index: 1;
+}
+
+.banner .international-brands {
+  position: relative;
+  float: right;
+  width: 650px;
+  height: 410px;
+}
+
+.banner .international-brands:hover .bg-mask {
+  opacity: 1;
+}
+
+.left-img {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  left: 0;
+}
+
+.left-img img {
+  height: 100%;
+}
+
+.right-img {
+  position: absolute;
+  right: 0;
+}
+
+.bottom-img {
+  bottom: 0;
+  z-index: 2;
+}
+
+.bg-mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.banner .banner-video {
+  position: relative;
+  float: right;
+  width: 650px;
+  height: 550px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #000;
+}
+
+.banner .banner-video .bg-poster {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: #000;
+}
+
+.banner .banner-video .video-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -55px 0 0 -55px;
+  width: 110px;
+  height: 110px;
+  background: url("http://mpic.secooimg.com/images/2018/11/08/video-play.png") no-repeat center;
+}
+
+/*# sourceMappingURL=banner.css.map */

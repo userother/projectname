@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>注册页面</title>
+    <title>寺库注册</title>
+    <link rel="stylesheet" href="css/registry.css">
 </head>
 
 <body>
-    <fieldset style="width:500px;margin:0 auto;">
+    <!-- <fieldset style="width:500px;margin:0 auto;">
         <legend>用户注册</legend>
         <form action="http://localhost/dashboard/JS2010/week06/Day%2029-Day%2031_jquery/projectname/php/reg.php" method="post">
             <p><label for="">用户名：</label><input type="text" name="username" id="username"><span></span></p>
@@ -17,7 +18,28 @@
             <p><label for="">邮　箱：</label><input type="text" name="email"></p>
             <p><input type="submit" value="提交注册" name="submit" id="submit"></p>
         </form>
-    </fieldset>
+    </fieldset> -->
+    <div class="bgcolor">
+        <div class="reg_box clearfix">
+            <div class="reg_center">
+                <div class="tab_phone">
+                    <ul class="clearfix">
+                        <li class="clearfix">
+                            <div class="regTips clearfix">
+                                <span class="t_right">用户名</span>
+                                <div class="regName_tips focus fr reg_userName f14">请输入手机号或者邮箱</div>
+                            </div>
+                            <div class="login_tips fl zindex">
+                                <input type="text" id="umeInput" class="fl reg_int reg_in">
+                            </div>
+                        </li>
+                        <li class="clearfix"></li>
+                    </ul>
+                    <div class="btn_reg_submit"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
