@@ -1,7 +1,7 @@
 .nfooter {
   height: 525px;
   padding-top: 40px;
-  margin-top: 0px;
+  margin-top: 70px;
   background-color: #ffb81c;
   font-size: 16px;
 }
@@ -153,6 +153,11 @@
   line-height: 20px;
   margin: 0px 0px 0px 5px;
   color: #939393;
+}
+
+.ncontainer {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=footer.css.map */

@@ -10,15 +10,6 @@
 </head>
 
 <body>
-    <!-- <fieldset style="width:500px;margin:0 auto;">
-        <legend>用户注册</legend>
-        <form action="http://localhost/dashboard/JS2010/week06/Day%2029-Day%2031_jquery/projectname/php/reg.php" method="post">
-            <p><label for="">用户名：</label><input type="text" name="username" id="username"><span></span></p>
-            <p><label for="">密　码：</label><input type="password" name="password"></p>
-            <p><label for="">邮　箱：</label><input type="text" name="email"></p>
-            <p><input type="submit" value="提交注册" name="submit" id="submit"></p>
-        </form>
-    </fieldset> -->
     <div class="bgcolor">
         <div class="reg_box clearfix">
             <div class="reg_center">
@@ -33,7 +24,15 @@
                                 <input type="text" id="umeInput" class="fl reg_int reg_in">
                             </div>
                         </li>
-                        <li class="clearfix"></li>
+                        <li class="clearfix">
+                            <div class="regTips clearfix">
+                                <span class="t_right">密码</span>
+                                <div class="regName_tips focus fr" id="passError" style="display: none;"></div>
+                            </div>
+                            <div class="login_tips fl">
+                                <input type="password" id="passwordInput" class="fl reg_int reg_in" tabindex="4">
+                            </div>
+                        </li>
                     </ul>
                     <div class="btn_reg_submit"></div>
                 </div>

@@ -154,7 +154,7 @@
   float: right;
   position: relative;
 }
-.s-search input {
+.s-search .search {
   outline: none;
   border: 0;
   border-bottom: 1px solid #fff;

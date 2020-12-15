@@ -299,7 +299,7 @@ table {
   float: right;
   position: relative;
 }
-.s-search input {
+.s-search .search {
   outline: none;
   border: 0;
   border-bottom: 1px solid #fff;
@@ -469,7 +469,7 @@ table {
 .nfooter {
   height: 525px;
   padding-top: 40px;
-  margin-top: 0px;
+  margin-top: 70px;
   background-color: #ffb81c;
   font-size: 16px;
 }
@@ -621,6 +621,11 @@ table {
   line-height: 20px;
   margin: 0px 0px 0px 5px;
   color: #939393;
+}
+
+.ncontainer {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .editor-pick.ncontainer {
@@ -818,7 +823,7 @@ table {
   width: 120px;
   height: 164px;
   z-index: 99;
-  top: 10%;
+  top: 50%;
   box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
