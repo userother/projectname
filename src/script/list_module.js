@@ -16,7 +16,7 @@ define(['pagination', 'jlazyload'], function() {
             let $next = []; //li里面的商品的后一个价格
             //1.渲染列表页面
             $.ajax({
-                url: 'http://localhost/secoo.com/php/listdata.php',
+                url: 'http://10.31.161.25/secoo.com/php/listdata.php',
                 dataType: 'json'
             }).done(function(datalist) {
                 console.log(datalist);
@@ -38,8 +38,13 @@ define(['pagination', 'jlazyload'], function() {
                 $("img.lazy").lazyload({ effect: "fadeIn" });
 
                 //将li元素添加到排序前的数组中。
+                $array_default = [];
+                $array = [];
                 $('.list li').each(function(index, element) { //element:原生的元素对象
                     $array_default[index] = $(this); //排序前
+                    //比如每页长度是15，数组里面有15项
+                    //index:0-14
+                    //如果数据不够15条，只有10条，替换前面的10条，后面还多余了5条
                     $array[index] = $(this); //排序后
                 });
                 console.log($array_default);
@@ -54,7 +59,7 @@ define(['pagination', 'jlazyload'], function() {
                     callback: function(api) {
                         console.log(api.getCurrent()); //获取当前的点击的页码。
                         $.ajax({
-                            url: 'http://localhost/secoo.com/php/listdata.php',
+                            url: 'http://10.31.161.25/secoo.com/php/listdata.php',
                             data: {
                                 page: api.getCurrent()
                             },
@@ -78,6 +83,8 @@ define(['pagination', 'jlazyload'], function() {
                             $("img.lazy").lazyload({ effect: "fadeIn" });
 
                             //将li元素添加到排序前的数组中。
+                            $array_default = [];
+                            $array = [];
                             $('.list li').each(function(index, element) { //element:原生的元素对象
                                 $array_default[index] = $(this); //排序前
                                 $array[index] = $(this); //排序后

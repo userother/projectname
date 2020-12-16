@@ -17,6 +17,11 @@ $pointer:pointer;
 // h4 {
 //     display: $inline-block;
 // }
+a {
+    text-decoration: none;
+    color: #000;
+}
+
 .header {
     height: 180px;
     width: $width_;
