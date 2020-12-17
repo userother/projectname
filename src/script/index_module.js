@@ -4,7 +4,7 @@ define(['jlazyload'], () => {
             //渲染+懒加载
             const $list = $('.product-list');
             $.ajax({
-                url: 'http://localhost/secoo.com/php/index.php',
+                url: 'http://10.31.161.25/secoo.com/php/index.php',
                 dataType: 'json'
             }).done(function(data) {
                 let $strhtml = '';

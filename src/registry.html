@@ -6,41 +6,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>寺库注册</title>
-    <link rel="stylesheet" href="css/registry.css">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="fonts/font_2265459_sbtw5x9bnp9/iconfont.css">
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/require.js/2.3.4/require.min.js" defer async=true data-main="script/main.js" id="currentpage" data-origin="registry_module"></script>
 </head>
 
-<body>
-    <div class="bgcolor">
-        <div class="reg_box clearfix">
-            <div class="reg_center">
-                <div class="tab_phone">
-                    <ul class="clearfix">
-                        <li class="clearfix">
-                            <div class="regTips clearfix">
-                                <span class="t_right">用户名</span>
-                                <div class="regName_tips focus fr reg_userName f14">请输入手机号或者邮箱</div>
-                            </div>
-                            <div class="login_tips fl zindex">
-                                <input type="text" id="umeInput" class="fl reg_int reg_in">
-                            </div>
-                        </li>
-                        <li class="clearfix">
-                            <div class="regTips clearfix">
-                                <span class="t_right">密码</span>
-                                <div class="regName_tips focus fr" id="passError" style="display: none;"></div>
-                            </div>
-                            <div class="login_tips fl">
-                                <input type="password" id="passwordInput" class="fl reg_int reg_in" tabindex="4">
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="btn_reg_submit"></div>
+<body style="margin: 0;">
+    <div class="header">
+        <div class="top-bar">
+            <div class="head-lang">
+                <div class="d1">
+                    <h4 style="margin: 0;">中文</h4>
+                    <i class="iconfont icon1">&#xe67e;</i>
+                </div>
+                <div class="line1"></div>
+                <div class="top-selector">
+                    <h4 style="margin: 0;">RMB ¥</h4>
                 </div>
             </div>
+            <div class="head-right">
+                <span class="denlu">
+                            <a href="login.html">登 录</a>
+                        </span>
+                <div class="line1"></div>
+                <span class="zhuche">
+                            <a href="registry.html">注 册</a></span>
+                <div class="line1"></div>
+                <span class="wujiaox">
+                            <a href="javascript:;">
+                                <i class="iconfont icon2">&#xe712;</i>
+                            </a>
+                        </span>
+            </div>
+            <div class="headlogo">
+                <a href="javascript:;">
+                    <img src="http://pic10.secooimg.com/push/18/11/013e7d9eb7674c799c3c21e84dd1c88a.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="nav-bar">
+            <div class="wrapper">
+                <ul class="nav-menu clearfix" style="margin: 0;">
+                    <li class="l1">
+                        <a href="index.html">首页</a>
+
+                    </li>
+                    <li class="l2">
+                        <a href="javascript:;">包袋</a>
+                        <div class="nav-unfold">
+                            <ul class="unfold-list">
+                                <li>
+                                    <h4>分类</h4>
+                                    <a href="list.html">男士包袋</a>
+                                    <a href="javascript:;">女士包袋</a>
+                                    <a href="javascript:;">钱包</a>
+                                    <a href="javascript:;">手拿包</a>
+                                    <a href="javascript:;">斜挎包</a>
+                                    <a href="javascript:;">拉杆箱</a>
+                                    <a href="javascript:;">双肩包</a>
+                                    <a href="javascript:;">手提包</a>
+                                </li>
+                                <li>
+                                    <h4>品牌</h4>
+                                    <a href="javascript:;">爱马仕</a>
+                                    <a href="javascript:;">爱马仕</a>
+                                    <a href="javascript:;">爱马仕</a>
+                                    <a href="javascript:;">爱马仕</a>
+                                    <a href="javascript:;">爱马仕</a>
+                                    <a href="javascript:;">爱马仕</a>
+                                    <a href="javascript:;">爱马仕</a>
+                                    <a href="javascript:;">爱马仕</a>
+                                    <a href="javascript:;">爱马仕</a>
+                                    <a href="javascript:;">爱马仕</a>
+                                    <a href="javascript:;">爱马仕</a>
+                                    <a href="javascript:;">爱马仕</a>
+                                    <a href="javascript:;">爱马仕</a>
+                                    <a href="javascript:;">爱马仕</a>
+                                    <a href="javascript:;">爱马仕</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">腕表</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">珠宝首饰</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">服饰</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">鞋履</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">配饰</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">运动</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">家居</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">美妆</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">生活方式</a>
+                    </li>
+                </ul>
+                <div class="s-search">
+                    <!-- <a href="javascript:;">搜索</a> -->
+                    <input type="text" placeholder="搜索商品、品牌" class="search">
+                    <span class="icon-search"><i class="iconfont">&#xe614;</i></span>
+                </div>
+            </div>
+
         </div>
     </div>
+
+    <!--  -->
+    <fieldset style="width:700px;margin:0 auto; margin-top: 70px;">
+        <legend>用户注册</legend>
+        <form action="http://10.31.161.25/secoo.com/php/reg.php" method="post" id="form1">
+            <p><label for="">用户姓名：</label><input type="text" name="username"><span></span></p>
+            <p><label for="">手机号码：</label><input type="text" name="tel"><span></span></p>
+            <p><label for="">用户密码：</label><input type="password" name="password"><span></span></p>
+            <p><label for="">用户邮箱：</label><input type="text" name="email"><span></span></p>
+            <p><input type="submit" value="提交注册" name="submit" id="submit" class="submit"></p>
+        </form>
+    </fieldset>
+
+
 </body>
 
 </html>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="script/registry.js"></script>

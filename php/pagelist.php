@@ -1,4 +1,6 @@
 <?php
+header('Access-Control-Allow-Origin:*');  //允许任意的域名访问
+header('Access-Control-Allow-Method:POST,GET'); //允许请求方式是get和post
 include "conn.php";//引入数据库连接代码。
 $result = $conn->query("select * from taobaogoods"); //获取数据的结果集(记录集)
 $num = $result->num_rows; //记录集的总条数

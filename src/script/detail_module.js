@@ -55,8 +55,8 @@ define(['jcookie'], () => {
                 $sf.css('visibility', 'visible');
                 $bf.css('visibility', 'visible');
                 $(this).on('mousemove', function(ev) {
-                    let $leftvalue = ev.pageX - $('.wrap').offset().left - 80 - $sf.width() / 2;
-                    let $topvalue = ev.pageY - $('.wrap').offset().top - $sf.height() / 2;
+                    let $leftvalue = ev.pageX - $('.goodsinfo').offset().left - $sf.width() / 2;
+                    let $topvalue = ev.pageY - $('.goodsinfo').offset().top - $sf.height() / 2;
                     if ($leftvalue < 0) {
                         $leftvalue = 0;
                     } else if ($leftvalue >= $spic.width() - $sf.width()) {
@@ -93,61 +93,21 @@ define(['jcookie'], () => {
             });
 
 
-            //左右箭头事件
-            let $num = 6; //列表显示的图片个数,重要的信息
-            $right.on('click', function() {
-                let $lists = $('#list ul li');
-                if ($lists.size() > $num) { //限制点击的条件，如果$num值小于li的长度，继续点击右键头
-                    $num++;
-                    $left.css('color', '#333');
-                    if ($lists.size() == $num) {
-                        $right.css('color', '#fff');
-                    }
-
-                    //列表运动
-                    $('#list ul').animate({
-                        left: -($num - 6) * $lists.eq(0).outerWidth(true)
-                    });
-                }
-            });
-            $left.on('click', function() {
-                let $lists = $('#list ul li');
-                if ($num > 6) { //限制点击的条件
-                    $num--;
-                    $right.css('color', '#333');
-                    if ($num <= 6) {
-                        $left.css('color', '#fff');
-                    }
-                    $('#list ul').animate({
-                        left: -($num - 6) * $lists.eq(0).outerWidth(true)
-                    });
-                }
-            });
-
-
             //4.购物车：(商品sid、商品数量)
             //4.1设置存储cookie的变量,因为是多个商品，采用数组存储。
             let arrsid = []; //存储商品的sid
             let arrnum = []; //存储商品的数量
 
-            //4.2核心是判断用户是第一次存储，多次存储。
-            //如果是第一次存储，创建商品的列表显示在购物车列表页面。
-            //如果是多次存储，购物车列表页面里面的商品数量累加。
-
-
-            //如何判断是第一次还是第二次
-            //通过获取cookie进行判断，每存储一个商品对应的商品编号存入cookie里面，cookie就会发生变化。如果cookie里面存在当前商品的编号，该商品不是第一次存储，直接数量累加。
-
-            //提前预判cookie设置时的key值(cookiesid/cookienum)进行获取cookie
             function getcookietoarray() {
                 if ($.cookie('cookiesid') && $.cookie('cookienum')) {
                     arrsid = $.cookie('cookiesid').split(',');
                     arrnum = $.cookie('cookienum').split(',');
+                } else { //cookie不存在，清空数组。
+                    arrsid = [];
+                    arrnum = [];
                 }
             }
-            //上面的函数获取cookie值，并且转换成数组，方便判断是否是第一次。
-            //第一次存储添加sid进入arrsid，存储数量
-            //第二次以上，直接修改数量。
+
 
             $('.p-btn a').on('click', function() {
                 getcookietoarray(); //获取cookie，变成数组，判断是否存在。
